@@ -1,0 +1,16 @@
+{
+  "name": "platzi-mi-blog-project",
+  "version": "1.0.0",
+  "description": "proyecto blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aleck.vinent@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "fontawesome-4.7": "^4.7.0",
+    "i": "^0.3.6",
+    "npm": "^7.8.0"
+  }
+}
