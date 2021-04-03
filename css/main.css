@@ -260,18 +260,41 @@ nav .profile-link a {
 
 /* profile */
 .profile-main-container {
-    display: inline-block;
-    width: 100%;
-    min-height: 250px;
+    padding: 70px 40px;
     background-color: #E6E9ED;
+    margin-bottom: 50px;
+}
+
+.profile-main-container .profile-container {
+    display: flex;
 }
 
 .profile-main-container img {
-    width: 100%;
+    width: 320px;
+    margin-right: 30px;
 }
 
 .profile-main-container div {
     text-align: initial;
+}
+
+.profile-main-projects {
+    padding: 0 50px 40px;
+}
+
+.profile-main-projects h3 {
+    border-bottom: 1px solid #CDD2DA;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.projects-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-main-container .project-container {
+    padding: 0 5px;
 }
 
 
