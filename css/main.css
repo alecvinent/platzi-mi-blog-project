@@ -3,7 +3,7 @@ body {
     padding: 0;
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 0; /* evitar scroll */
     left: 0;
     right: 0;
 }
@@ -75,7 +75,7 @@ nav .nav-logo-container {
     margin-left: 50px;
 }
 
-nav .nav-logo-container  img {
+nav .nav-logo-container img {
     width: 220px;
     margin-top: 10px;
 }
@@ -91,4 +91,26 @@ nav .profile-link {
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+}
+
+.home-main {
+    display: grid; /* mostrar en columnas */
+    grid-template-columns: 1fr 4fr 1fr; /* dividir en 3 columnas */
+    height: 100%;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: black;
+    text-align: center;
 }
