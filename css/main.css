@@ -96,6 +96,7 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
+/* home */
 .home-main {
     display: grid; /* mostrar en columnas */
     grid-template-columns: 1fr 4fr 1fr; /* dividir en 3 columnas */
@@ -135,8 +136,35 @@ nav .profile-link a {
     font-size: 18px;
 }
 
-.blogs-main {}
+/* blogs */
+.blogs-main {
+    display: grid;
+}
 
-.blogs-main-new-img-container {
-    width: 100px;
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+    padding: 0 0 25px
+}
+
+.blogs-news-img-container img {
+    width: 50%;
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
 }
