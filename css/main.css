@@ -184,3 +184,9 @@ nav .profile-link a {
 .post-container img {
     width: 35%;
 }
+
+.blogs-button {
+    border: 1px solid #48CFAD;
+    padding: 10px 15px;
+    font-size: 12px;
+}
