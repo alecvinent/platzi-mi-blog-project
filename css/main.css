@@ -97,6 +97,8 @@ nav .profile-link a {
     display: grid; /* mostrar en columnas */
     grid-template-columns: 1fr 4fr 1fr; /* dividir en 3 columnas */
     height: 100%;
+    background: url("../assets/img/cover.png") center no-repeat;
+    background-size: cover;
 }
 
 .home-main section {
