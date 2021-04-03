@@ -258,6 +258,22 @@ nav .profile-link a {
     width: 200px;
 }
 
+/* profile */
+.profile-main-container {
+    display: inline-block;
+    width: 100%;
+    min-height: 250px;
+    background-color: #E6E9ED;
+}
+
+.profile-main-container img {
+    width: 100%;
+}
+
+.profile-main-container div {
+    text-align: initial;
+}
+
 
 /* footer */
 footer {
