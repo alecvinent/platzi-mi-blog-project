@@ -55,6 +55,40 @@ header .icons span {
     justify-self: center;
 }
 
+header .icons span:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
 .fa-facebook-f:before, .fa-facebook:before {
     margin-left: 2px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container  img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
 }
